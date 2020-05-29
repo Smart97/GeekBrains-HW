@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 
 }
+a {
+    text-decoration: none;
+}
 .container {
     width: 1140px;
     margin: auto;
@@ -37,7 +40,7 @@ h1, h2, h3, h4, h5 {
 }
 /*селекторы */
 .pink {
-    color: #f16d7f;
+    color: #f16d7f!important;
     font-weight: 700;
 }
 
@@ -116,7 +119,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .topNav a {
-    text-decoration: none;
     color: #222222;
     font-size: 14px;
     font-weight: 700;
@@ -216,7 +218,6 @@ h1, h2, h3, h4, h5 {
 }
 .featuredButton {
     background-color: #f16d7f;
-    text-decoration: none;
     color: #ffffff;
     padding: 25px;
     margin: auto;
@@ -350,7 +351,7 @@ h1, h2, h3, h4, h5 {
 .subscribe button {
     background: #f16d7f;
     border: none;
-    height: 47px;
+    height: 45px;
     margin: 0 0 0 -4px;
     border-radius: 0 20px 20px 0;
     color: #fff;
@@ -377,7 +378,6 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase;
 }
 .info a, p {
-    text-decoration: none;
     color: #919191;
 }
 .info a:hover {
@@ -411,20 +411,165 @@ footer .container {
     color: #ffffff;
 }
 
+.bannerShopingCart {
+    background-image: none;
+    height: 148px;
+}
+.shopingCartBannerText {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.breadCrumbs {
+    line-height: 57.5px;
+    text-transform: uppercase;
+}
+.breadCrumbs a {
+    color: #6d6d6d;
+}
 
+.cartHeaders {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.cartHeaders p:first-child {
+    width: 480px;
+    text-align: start;
+}
+.cartHeaders p {
+    width: 96px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 22px 0;
+}
+.itemDetails {
+    display: flex;
+}
+.product img {
+    width: 100px;
+    margin-right: 20px;
+}
+.product .description {
+    width: 360px;
+    justify-self: left;
+}
+.product .description h5 {
+    text-align: left;
+    text-transform: uppercase;
+}
+.product .description p {
+    text-transform: capitalize;
+}
+.product p,.product input,.product button {
+    width: 96px;
+    text-align: center;
+}
 
+.product input {
+    height: 30px;
+    width: 50px;
+}
+.product button {
+    border: none;
+    background: none;
+    outline: none;
+}
+.product button:active, .product button:hover  {
+    color: #f16d7f;
+}
+main>form>button,  .checkout button{
+    width: 235px;
+    height: 50px;
+    background: none;
+    outline: none;
+    border: 1px solid #eaeaea;
+    margin: 50px 0;
+}
+main>form>button:hover {
+    background-color: #f16d7f;
+    color: #fff;
+}
+main>form>button:last-child {
+    float: right;
+}
+.checkout {
+    display: flex;
+    justify-content: space-between;
+}
+.checkout h4 {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.checkout p {
+    margin: 0 0 20px 0;
+    color: #000;
+}
+.checkout form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.checkout form input {
+    margin-bottom: 20px;
+    height: 45px;
+    outline: none;
+    line-height: 51px;
+    font-size: 1.2em;
+}
+.checkout form button {
 
+    width: 100px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+.checkout form button:hover {
+    background-color: #f16d7f;
+    color: #fff;
+}
+.total {
+    background: #f5f3f3;
+    height: 215px;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: right;
+    text-transform: uppercase;
+}
+.checkout .total button {
+    width: 275px;
+    height: 50px;
+    background-color: #f16d7f;
+    color: #fff;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.checkout .total button:hover {
+    background: #ee596c;
+}
+.total p:first-child {
+    font-size: 0.8em;
+    font-weight: 400;
+}
 
-
-
-
-
-
-
-
-
-
-
+.total p {
+    font-size: 1em;
+    font-weight: 900;
+}
 
 
 
