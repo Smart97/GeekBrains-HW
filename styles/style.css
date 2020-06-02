@@ -321,7 +321,7 @@ a {
 .reviewSlideButton:hover {
      background: #e89da9;
  }
-.active, .active:hover {
+.actived, .actived:hover {
     background: #f16d7f;
 }
 
@@ -570,9 +570,31 @@ main>form>button:last-child {
     font-size: 1em;
     font-weight: 900;
 }
+.carousel-item img {
+    height: 780px;
+}
+.slider .carousel{
+    background: #f7f7f7;
+    margin-bottom: -2%;
+}
+main.slider .itemDescription {
+    outline: 1px solid #eaeaea;
+    background: #fff;
+    z-index: 1;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;
+}
+.itemDetails {
+    margin: auto;
+}
+.hr {
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+}
+.cartButton {
 
-
-
-
+}
 
 
