@@ -1,0 +1,146 @@
+@import "variables";
+.feedback {
+  height: 380px;
+  background: url("../img/feedback.jpg") 50% no-repeat;
+  background-size: cover;
+}
+.feedbackFilter {
+  background: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 110px;
+    box-sizing: border-box;
+  }
+}
+
+.review {
+  background: url("../img/review.png") no-repeat;
+  width: 500px;
+  padding-left: 120px;
+  box-sizing: border-box;
+  p:first-child{
+    padding-left: 4em;
+  }
+  p, .pink {
+    margin: 0;
+  }
+  .pink {
+    margin-top: 10px;
+  }
+}
+
+.textSmall {
+  font-size: 0.7em;
+}
+.reviewSlideButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 10px;
+  width: 140px;
+}
+.reviewSlideButton {
+  width: 40px;
+  height: 5px;
+  background: #d6d6d6;
+  &:hover {
+    background: #e89da9;
+  }
+}
+
+.actived {
+  background: $mainColor;
+  &:hover {
+    @extend .actived
+  }
+}
+
+.subscribe {
+  text-align: center;
+  text-transform: uppercase;
+  color: #222224;
+  font-weight: 600;
+  margin-left: auto;
+  p   {
+    font-size: 0.8em;
+  }
+  input {
+    width: 280px;
+    height: 45px;
+    border-radius: 20px 0 0 20px ;
+    outline: none;
+    border: none;
+    padding-left: 25px;
+    box-sizing: border-box;
+    background: #e1e1e1;
+  }
+  button {
+    background: $mainColor;
+    border: none;
+    height: 45px;
+    margin: 0 0 0 -4px;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    outline: none;
+    &:hover {
+      background: $darkMain;
+    }
+  }
+}
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 100px 0;
+}
+.infoMain {
+  width: 430px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h5   {
+    text-transform: uppercase;
+  }
+  p {
+    color: #919191;
+  }
+  a {
+    color: #919191;
+    &:hover {
+      color: $darkMain;
+    }
+  }
+}
+
+footer {
+  background: #e6e6e6 100%;
+  height: 100px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #ffffff;
+    color: #bcbcbc;
+    &:hover {
+      background: $mainColor;
+      color: #ffffff;
+    }
+  }
+}
