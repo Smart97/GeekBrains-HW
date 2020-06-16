@@ -319,6 +319,66 @@ main.slider .itemDescription {
     }
   }
 }
+main {
+  details, summary {
+    outline: none;
+  }
+  details {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+      .row {
+        margin-top: 20px;
+        margin-bottom: 60px;
+      }
+      summary{
+        &::-webkit-details-marker {
+          display: none;
+        }
+      }
+    &:last-child {
+      border-bottom: 1px solid #e8e8e8;
+    }
+    button {
+      background: #ffffff;
+      border: 1px solid #e8e8e8;
+      width: 12rem;
+      height: 3rem;
+    }
+    form {
+      h3 {
+        color: #222222;
+        font-size: 1.3rem;
+      }
+      p {
+        color: #b3b2b2;
+      }
+      label {
+        font-weight: 500;
+      }
+      li {
+        color: #b3b2b2;
+      }
+      .loginButtons {
+        margin-top: 48px;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .effects{
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: fill;
+      &:hover {
+        transform: rotateY(180deg);
+        transition: transform 0.5s;
+      }
+    }
+  }
+}
 .itemDetails {
   margin: auto;
 }

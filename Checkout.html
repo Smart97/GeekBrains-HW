@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!--    <link rel="stylesheet" href="styles/style.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header class="header container row mx-auto">
+
+    <div class="logo mr-5 col-3 col-lg-2 text-right">Bran<span class="pink">d</span></div>
+
+    <form class="search col-12 order-last col-lg-5 order-lg-1 p-0">
+        <div class="searchBrowse">Browse <i class="fas fa-caret-down"></i></div>
+        <input name="search" type="text" placeholder="Search for Item...">
+        <button class="ml-auto"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="account ml-auto order-2">
+        <img class="headerCart" src="img/cart.png" alt="headerCart">
+        <button class="accountBtn">My Account <i class="fas fa-caret-down"></i></button>
+    </div>
+
+
+
+</header>
+<div class="headerLine"></div>
+<nav class="topNav">
+    <a href="#">Home</a>
+    <a href="#">Man</a>
+    <a href="#">Women</a>
+    <a href="#">Kids</a>
+    <a href="#">Accessories</a>
+    <a href="#">Featured</a>
+    <a href="#">Hot Deals</a>
+</nav>
+
+<div class="topBanner">
+    <div class="container topBannerContent bannerShopingCart">
+        <div class="topBannerText shopingCartBannerText">
+            <h2 class="pink">NEW ARRIVALS</h2>
+            <div class="breadCrumbs">
+                <a href="#">home</a>
+                /
+                <a href="#">men</a>
+                /
+                <a class="pink" href="#">new arrivals</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="container mt-5 mb-5">
+    <details>
+        <summary>01. SHIPPING ADRESS</summary>
+        <div class="row text-lg-left">
+            <form class="col-12 col-lg-6">
+                <h3 class="text-uppercase">Check as guest or register</h3>
+                <p>Register with us for future convenience</p>
+                <div>
+                    <input type="radio" name="register" id="register1">
+                    <label class="text-uppercase" for="register1">Checkout as guest</label>
+                </div>
+                <div>
+                    <input type="radio" name="register" id="register2">
+                    <label class="text-uppercase" for="register2">Register</label>
+                </div>
+                <h3 class="text-uppercase">register and save time!</h3>
+                <p>Register with us for future convenience</p>
+                <ul class="pl-3">
+                    <li>Fast and easy checkout</li>
+                    <li>Easy access to your order history and status</li>
+                </ul>
+                <button class="text-uppercase" type="submit">Continue</button>
+            </form>
+            <form class="col-12 col-lg-6 h-100% pt-lg-1 mt-4 mt-lg-0">
+                <h3>Already registed?</h3>
+                <p>Please log in below</p>
+                <label for="email">Email adress <span class="text-danger">*</span></label>
+                <input class="d-block" type="text" id="email">
+                <label for="password">password <span class="text-danger">*</span></label>
+                <input class="d-block" type="password" id="password">
+                <p class="text-danger">* Required Fields</p>
+                <div class="d-flex align-items-center loginButtons">
+                    <button class="mr-3" type="submit">Login</button>
+                    <a href="#" class="d-block text-dark ">Forgot Password?</a>
+                </div>
+
+            </form>
+        </div>
+
+    </details>
+    <details class="effects">
+        <summary>02. Эффекты</summary>
+        <img src="img/logo.png" alt="logo">
+    </details>
+    <details>
+        <summary>03. SHIPPING INFORMATION</summary>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores beatae consequatur deleniti, eum fugit hic iure laboriosam magnam neque nesciunt nisi similique voluptatibus? Adipisci eum excepturi obcaecati qui voluptatem.
+    </details>
+    <details>
+        <summary>04. SHIPPING METHOD</summary>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores beatae consequatur deleniti, eum fugit hic iure laboriosam magnam neque nesciunt nisi similique voluptatibus? Adipisci eum excepturi obcaecati qui voluptatem.
+    </details>
+    <details>
+        <summary>05. PAYMENT METHOD</summary>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores beatae consequatur deleniti, eum fugit hic iure laboriosam magnam neque nesciunt nisi similique voluptatibus? Adipisci eum excepturi obcaecati qui voluptatem.
+    </details>
+    <details>
+        <summary>06. ORDER REVIEW</summary>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores beatae consequatur deleniti, eum fugit hic iure laboriosam magnam neque nesciunt nisi similique voluptatibus? Adipisci eum excepturi obcaecati qui voluptatem.
+    </details>
+</main>
+
+<div class="feedback">
+    <div class="feedbackFilter">
+        <div class="container row mx-auto">
+            <div class="review text-center col-12 col-lg-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, voluptatibus</p>
+                <p class="pink">Lorem ipsum.</p>
+                <p class="textSmall">Lorem, bc</p>
+                <div class="reviewSlideButtons mx-auto">
+                    <a class="reviewSlideButton"></a>
+                    <a class="reviewSlideButton active"></a>
+                    <a class="reviewSlideButton"></a>
+                </div>
+            </div>
+            <div class="subscribe col-12 col-lg-6">
+                <h3>subscribe</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <form>
+                    <input type="email" placeholder="Enter Your Email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="footerInfo container row mx-auto">
+    <div class="infoMain col-12 col-lg-5">
+        <div class="logo">Bran<span class="pink">d</span></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolor dolore, eligendi illum in
+            inventore molestiae mollitia pariatur quasi sunt. Corporis deserunt expedita fugit minima nostrum quae
+            quidem, quo vel.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, ullam.</p>
+    </div>
+    <nav class="info col-4 col-lg-2 text-center">
+        <h5 class="pink">company</h5>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+    </nav>
+    <nav class="info col-4 col-lg-2 text-center">
+        <h5 class="pink">information</h5>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+    </nav>
+    <nav class="info col-4 col-lg-3 text-center">
+        <h5 class="pink">shop category</h5>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+        <a href="#">Shop</a>
+    </nav>
+
+</div>
+<footer>
+    <div class="container ">
+        <p>© 2017 Brand All Rights Reserved.</p>
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
