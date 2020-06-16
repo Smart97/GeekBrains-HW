@@ -1,0 +1,126 @@
+@import "variables";
+.header {
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*background: lightgray;*/
+}
+
+.logo {
+  /*rem em*/
+  background: url("../img/logo.png") no-repeat;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 300;
+  padding-left: 72px;
+  line-height: 51px;
+}
+/*селекторы */
+.pink {
+  color: $mainColor!important;
+  font-weight: 700;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  overflow: hidden;
+  height: 40px;
+  font-weight: 300;
+  input {
+    height: inherit;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+  }
+  .searchBrowse {
+    padding: 14px;
+    border-right: 1px solid #e6e6e6;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    line-height: 40px;
+    color: #222222;
+    font-weight: 400;
+    i:first-child {
+      color: #838383;
+    }
+  }
+  button {
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    background: none;
+    padding: 12px;
+    .search button i {
+      color: #a4a4a4;
+    }
+  }
+}
+
+.accountBtn {
+  padding: 13px 19px;
+  background-color: $mainColor;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+}
+
+.headerCart {
+  margin-right: 24px;
+  margin-left: auto;
+}
+
+.headerLine {
+  border-bottom: 1px solid #ececec;
+}
+
+.topNav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+}
+
+.topBanner {
+  background: #e8e8e8;
+  .topBannerContent {
+    background: url(../img/topHeaderBack.png) no-repeat 95% -75%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+  }
+  .bannerShopingCart {
+    background-image: none;
+    height: 148px;
+    .shopingCartBannerText {
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+  }
+  .topBannerText {
+    border-left: 12px solid $mainColor;
+    padding-left: 5px;
+    .topBannerText h2 {
+      font-size: 3em;
+    }
+    .topBannerText h3 {
+      font-size: 2em;
+    }
+  }
+}
